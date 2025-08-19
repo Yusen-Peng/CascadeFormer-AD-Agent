@@ -7,6 +7,7 @@ from finetuning import load_T1, finetuning, GaitRecognitionHead
 
 from penn_utils import set_seed, build_penn_action_lists, split_train_val, collate_fn_finetuning, NUM_JOINTS_PENN
 
+
 def parse_args():
     parser = argparse.ArgumentParser(description="Gait Recognition Training")
     parser.add_argument("--pretrain", action='store_true', help="Run the stage of pretraining")
