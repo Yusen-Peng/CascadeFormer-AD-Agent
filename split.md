@@ -1,20 +1,4 @@
-# 🏷️ CascadeFormer-based Surveillance Agent
-
-## Agentic design
-
-CascadeFormer backbone:
-
-![alt text](docs/backbone.png)
-
-CascadeFormer-based Anomaly detection (Surveillance) agent:
-
-![alt text](docs/CascadeFormer-AD-Agent.png)
-
-## Dataset Curation
-
-I propose that we can take NTU dataset (originally used for action recognition) and classify them into normal/abnormal actions, namely:
-
-**48** normal actions:
+48 normal actions:
 
 ```
 A1. drink water; A2. eat meal/snack; A3. brushing teeth; A4. brushing hair; 
@@ -32,17 +16,10 @@ A55. hugging other person; A56. giving something to other person; A58. handshaki
 A59. walking towards each other; A60. walking apart from each other.
 ```
 
-**12** abnormal actions:
+
+12 abnormal actions:
 
 ```
 A42. staggering; A43. falling; A44. touch head (headache); A45. touch chest (stomachache/heart pain); A46. touch back (backache); A47. touch neck (neckache); A48. nausea or vomiting condition; A50. punching/slapping other person; A51. kicking other person;
 A52. pushing other person; A54. point finger at the other person; A57. touch other person's pocket.
 ```
-
-## Evaluation
-
-TBD
-
-## Demo (optional)
-
-TBD
